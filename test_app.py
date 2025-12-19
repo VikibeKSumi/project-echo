@@ -1,4 +1,4 @@
-from app import sentiment_analyzer 
+from app import sentiment_analyzer
 
 def test_sentiment():
   assert sentiment_analyzer("i am happy") == "Positive"
